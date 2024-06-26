@@ -1,0 +1,6 @@
+﻿services:
+  api.monitoramento.ambiental:
+    image: api.monitoramento.ambiental
+    build:
+      context: .
+      dockerfile: Dockerfile
